@@ -239,6 +239,8 @@ button {
     color: #00bbee;
 }
 
+/* style for search bar */
+
 /* Side nav for mobile */
 .side-nav {
     display: none; /* Initially hidden */
@@ -913,7 +915,7 @@ button {
     color: #ddd;
     margin: 0;
     display: block;
-    background-color: rgba(24, 28, 28, 0.492);
+    background-color: rgba(2, 22, 20, 0.445);
     padding: 1rem;
 }
 
@@ -949,7 +951,7 @@ button {
     width: 100%;
     top: 0;
     transition: transform 300ms;
-    background-color: rgba(64, 224, 208, 0.85); /* lighten(turquoise, 15%) */
+    background-color: rgba(2, 22, 20, 0.445); /* lighten(turquoise, 15%) */
     transform: translate3d(0, calc(100% - 3.5rem), 0);
 }
 
@@ -964,9 +966,9 @@ button {
 }
 
 .gridbutton {
-    background-color: #333939; /* Green */
+    background-color: #a7babaf3; /* Green */
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -1130,7 +1132,7 @@ button {
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .mian-footer {
-        height: 140vh;
+        height: 155vh;
         background-color: #eaf1f1de;
         border-bottom: 1.5px solid #00bbee;
     }
@@ -1158,7 +1160,13 @@ button {
     .our-company p {
         padding: 10px; /* Reduce padding for mobile */
     }
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+
 }
+
+
 /* <!-- Closing of main footer  --> */
 
 /* <!-- Starting of down footer  --> */

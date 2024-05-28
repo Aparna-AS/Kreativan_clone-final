@@ -15,3 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const searchIcon = document.getElementById('search-icon');
+    const searchBox = document.getElementById('search-box');
+    const closeIcon = document.getElementById('close-icon');
+
+    searchIcon.addEventListener('click', function () {
+        searchBox.style.display = 'flex';
+    });
+
+    closeIcon.addEventListener('click', function () {
+        searchBox.style.display = 'none';
+    });
+});
